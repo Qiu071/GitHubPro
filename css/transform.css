@@ -1,0 +1,78 @@
+.transform{
+    width: 1000px;
+    height: 33px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+.uppage,.downpage,.page,.pagenumber{
+    float: left;
+}
+.uppage,.downpage{
+    background: #EBEBEB;
+    width: 115px;
+    height: 33px;
+    line-height: 33px;
+    text-align: center;
+}
+.turn{
+    text-decoration: none;
+    color: black;
+}
+.page>ul{
+    box-sizing: border-box;
+    width: 205px;
+    padding: 0px 0px 0px 25px;
+}
+.page>ul>li{
+    float: left;
+    list-style: none;
+    font-size: 19px;
+    padding: 5px 10px 0px;
+}
+.pagelink{
+    text-decoration: none;
+    color: black;
+}
+.pagelink:hover{
+    text-decoration: underline;
+    color: orange;
+}
+.pagenumber{
+    height: 33px;
+    line-height: 33px;
+}
+.pagenumber>p{
+    float: left;
+    padding: 0px 20px;
+}
+.pagenumber>.pageword{
+    margin-left: 20px;
+}
+.pagenumber>form{
+    border:2px solid #666666;
+    width:30px;
+    height:30px;
+    box-sizing: border-box;
+    position: relative;
+    float: left;
+    margin-top: 2px;
+}
+.pagenumber>form>input{
+    position: absolute;
+    left:0;
+    top:0;
+    width:26px;
+    height:26px;
+    border:none;
+    outline: none;
+}
+.sure>button{
+    margin-left: 20px;
+    width:65px;
+    height: 33px;
+    background: orange;
+    border: none;
+    font-size: 16px;
+    color: white;
+}

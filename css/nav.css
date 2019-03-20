@@ -1,0 +1,64 @@
+.nav-outside{
+    background: #eeeeee; 
+}
+.nav-x{
+    width: 1000px;
+    height: 40px;
+    background: #eeeeee;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+.nav-left{
+    position: absolute;
+    left: 15px;
+    top: 0;
+    line-height: 40px;
+}
+.nav-right{
+    position: absolute;
+    right: 0;
+    top: 0;
+    line-height: 40px;
+}
+.nav-wrap{
+    text-align: center;
+    line-height: 40px;
+}
+.nav-x a{
+    text-decoration: none;
+    color: black;
+}
+.nav-left,.nav-right{
+    font-size: 14px;
+}
+.nav-left a:first-of-type{
+    margin-left: 20px;
+}
+.nav-x .location{
+    width: 19px;
+    height: 19px;
+    display: inline-block;
+    background: url('../images/定位.png');
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -9.5px;
+}
+.nav-x .adm{
+    width: 19px;
+    height: 19px;
+    display: inline-block;
+    background: url('../images/个人中心icon.png');
+    margin-right: 30px;
+}
+.nav-right .adm{
+    position: absolute;
+    right: 35px;
+    top: 50%;
+    margin-top: -9.5px;
+}
+.nav-main{
+    font-size: 19px;
+    padding: 25px;
+}

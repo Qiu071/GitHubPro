@@ -1,0 +1,285 @@
+/* top.css */
+*{margin: 0;padding: 0}
+body{
+    color: #666;
+}
+.top-a{
+    text-decoration: none;
+}
+.top{
+    width: 100%;
+    height: 100px;
+    background: #ffffff;
+}
+.logo{
+    height: 100px;
+    width: 230px;
+    margin-left: 190px;
+    position: relative;
+}
+.one{
+    height: 49px;
+    width: 49px;
+    /* 利用url使logo背景底色为橘色，no-repeat为不平铺，center居中 */
+    background:#f56600 url("../images/mi-logo.png" ) no-repeat center center;
+    /* 实现logo.one部分的垂直居中 */
+    position: absolute;
+    margin: auto;
+    top: 0;bottom: 0;
+    /* 实现logo的边角化 */
+    border-radius: 5%;
+}
+/* 为了解决为第一个子元素设置margin-top，导致父元素却整体向下移动的问题 */
+.two{
+    overflow: hidden;
+}
+.two>p{
+    font-size: 30px;
+    margin-left: 68px;
+    margin-top: 20px;
+    color: #333333;
+
+}
+.two>p:last-child{
+    font-size: 9px;
+    font-weight: 600;
+    margin-top: 2px;
+    color:#999999;
+}
+
+/* center.css */
+.center-background{
+    text-decoration: none;
+}
+.center{
+    position: relative;
+    margin: 0 auto;
+    height: 555px;
+    background: url("https://cdn.cnbj1.fds.api.mi-img.com/mi-mall/553c5e503fc83138c76bd7c17c1434db.jpeg") no-repeat center center;
+    overflow: hidden;
+}
+/* form.css */
+.form{
+    text-align: center;
+    width:410px;
+    height: 525px;
+    background: #fff;
+    margin-top: 30px;
+    margin-left: 915px;
+    position: relative;
+
+}
+/* form-content.css */
+.form-content{
+    
+    position: relative;
+    height:300px;
+}
+.form-content>div{
+    position: absolute;
+    width:100%;
+    height:100%;
+    left:0;
+    top:0;
+}
+.saoma{
+    display: none;
+    margin-top: 115px;
+}
+.nav{
+    line-height: 80px;
+}
+input{
+    width:306px;
+    height:22px;
+    line-height: 22px;
+    padding: 12px 16px 12px 14px;
+    
+}
+.text{
+    margin-top: 10px;
+}
+.pass{
+    margin-top: 15px;
+}
+.active{
+    font-size: 24px;
+    color: #f56600;
+    
+}
+.nav span{
+    cursor: pointer;
+    font-size: 24px;
+    display: inline-block;
+    margin: auto 40px;
+}
+.nav span:hover{
+    color: #f56600;
+}
+i{
+    display: inline-block;
+    position: absolute;
+    margin: auto;
+    left: 0;right: 0;top: 25px;
+}
+.split-top{
+    width: 3px;
+    height: 29px;
+    border: 0.1px solid #999999;
+    box-sizing: border-box;
+
+}
+button{
+    margin: 20px 0 0;
+    width: 340px;
+    height: 50px;
+    border: none;
+    background: #f56600;
+    color: #fff;
+    font-size: 14px;
+}
+.load-a{
+    text-decoration: none;
+    color: white;
+}
+.regist{
+    line-height: 35px;
+    right: 41px;
+    position: relative;
+
+}
+.regist-a1{
+    font-size: 14px;
+    text-decoration: none;
+    color: #F56600;
+}
+.regist-a2{
+    font-size: 14px;
+    text-decoration: none;
+    color: #999999;
+}
+.regist-a2:hover{
+    color: #F56600;
+}
+.split-bottom{
+    color: #999999;
+}
+.regist-div{
+    float:right;
+}
+.qita{
+    position: absolute;
+    color: #999;
+    font-size: 14px;
+    bottom:-70px;
+    left: 163px;
+}
+.qita .left, .right {
+    position: absolute;
+    display: block;
+    width: 120px;
+    height: 1px;
+    background: #999;
+    top: 50%;
+}
+.left{
+    right: 94px;
+}
+.right{
+    left: 98px;
+}
+
+.Icon{
+    position: absolute;
+    bottom:-115px;
+    left: 90px;
+
+}
+.Icon a{
+    text-decoration: none;
+}
+.qq-icon{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-right: 30px;
+    background: url("../images/腾讯icon.png")no-repeat center center;
+}
+.weibo-icon{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-right: 30px;
+    background: url("../images/微博icon.png")no-repeat center center;
+}
+.zhifu-icon{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin-right: 30px;
+    background: url("../images/支付宝icon.png")no-repeat center center;
+}
+.weixin-icon{
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background: url("../images/微信icon.png")no-repeat center center;
+}
+/* saoma.css */
+.saoma span{
+    font-size: 14px;
+}
+.saoma-top{
+    display: block;
+    margin-top: 10px;
+}
+.saoma-bottom{
+    display: block;
+    margin-top: 3px;
+}
+.saoma-middle{
+    color: #F56600;
+}
+
+
+/* bottom.css */
+.bottom{
+    width:100%;
+    height: 180px;
+    overflow: hidden;
+    position: relative;
+}
+.bottom-size{
+    width: 333px;
+    height: 30px;
+    margin: 100px auto 0;
+}
+.bottom-ul li{
+    float:left;
+    list-style: none;
+    font-size: 14px;
+}
+.bottom-ul-a{
+    text-decoration: none;
+    color: #999;
+}
+.bottom-ul-a:hover{
+    color: #333333;
+}
+.bottom-split{
+    color: #999;
+}
+.bottom-gongan{
+    font-size: 14px;
+    color: #999;
+}
+.bottom-gongan{
+    position: absolute;
+    display: inline-block;
+    width: 575px;
+    margin:auto;
+    left: 0;right: 0;
+}
+.gongan-a{
+    text-decoration: none;
+}

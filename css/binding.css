@@ -1,0 +1,56 @@
+*{margin: 0;padding: 0}
+.binding p{
+    color: #5f5f5f;
+    font-size: 18px;
+    margin-left: 37px;
+    line-height: 30px;
+    margin-bottom: 13px;
+    border-left: 4px solid #19bebe;
+    padding-left: 25px; 
+}
+.binding{
+    padding: 30px 40px;
+}
+.revise{
+    border-top: 1px dashed #ccc;
+}
+.phone,.wechat{
+    border: 1.2px solid #ccc;
+    background: #fff;
+    margin: 15px 35px;
+    width: 495px;
+    height: 65px;
+    padding-left: 25px;
+    position: relative;
+}
+.revise .phone-img{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+.revise .wechat-img{
+    position: absolute;
+    top: 17px;
+    left: 14px;
+}
+.revise p1{
+    font-size: 13px;
+    position: absolute;
+    top: 15px;
+    left: 65px;
+}
+button{
+    position: absolute;
+    top: 17px;
+    right: 80px;
+    width:80px;
+    height: 30px;
+    text-align: center;
+    background: #fea700;
+    outline: none;
+    border: none;
+}
+.binding-a{
+    color: #fff;
+    text-decoration: none;
+}

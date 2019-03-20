@@ -1,0 +1,170 @@
+body {
+    font-family: -apple-system,SF UI Text,Arial,PingFang SC,Hiragino Sans GB,Microsoft YaHei,WenQuanYi Micro Hei,sans-serif;
+}
+ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+.muxi-center {
+    margin-left: auto;
+	margin-right: auto;
+}
+.muxi-width {
+    padding-left: 10%;
+    padding-right: 10%;
+	box-sizing: border-box;
+}
+.clearfix:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.muxi-navigation {
+    width: 100%;
+}
+.muxi-navigation .navbar {
+    border-radius: 0;
+    margin-bottom: 0;
+    min-height: 80px;
+}
+/* 缺省值进行更改 去bootstrap自带背景与边框 */
+.muxi-navigation .navbar-default {
+    background: none;
+    border: none;
+}
+.muxi-navigation .navbar-default .navbar-toggle .icon-bar{
+	background: #2dae36;
+}
+.muxi-navigation .navbar-brand{
+	width: 280px;
+	background: url(../images/muxidiban-logo0.png) center no-repeat;
+	height: 80px;
+	/* 此处不加padding默认为bootstrap规定值15px */
+	padding: 8px;
+}
+/* .muxi-navigation .navbar-brand img{
+	height:100%;
+} */
+/* .muxi-navigation .collapse{
+	line-height: 50px;
+} */
+
+/* 当前调整手机屏幕下的下拉菜单按钮 */
+.muxi-navigation .navbar-toggle{
+	margin-top: 22px;
+	border-color: #2dae36;
+}
+.muxi-navigation .navbar-toggle:hover{
+	border-color: white;
+	background:#2dae36;
+}
+.muxi-navigation .navbar-default .navbar-toggle:hover .icon-bar{
+	background:white;
+}
+.muxi-navigation .navbar-collapse{
+	padding:0;
+}
+.muxi-navigation .navbar-nav{
+	margin-right: -60px;
+}
+.muxi-navigation .navbar-nav>li>a{
+	line-height: 50px;
+	padding-left: 8px;
+	padding-right: 8px;
+}
+.muxi-navigation .navbar-nav>li:hover>a{
+	color:#2dae36;
+	border-bottom: 2px solid #2dae36;
+}
+/* 使页面呈现时 该条项显示颜色 */
+.muxi-navigation .navbar-nav .select>a{
+	color:#2dae36;
+	border-bottom: 2px solid #2dae36;
+}
+
+.footer{
+	padding-top:24px;
+	padding-bottom:16px;
+	box-sizing: border-box;
+	background-color:#ddd;
+	text-align: center;
+	color:#666;
+}
+.footer .footer-logo{
+	margin-bottom: 16px;
+}
+.footer .footer-logo img{
+	width: 100px;
+}
+.footer a{
+	color:#777;
+	text-align: center;
+	text-decoration: none;
+}
+.footer .changepage{
+	padding-top: 20px;
+}
+.footer a:hover{
+	color:#2dae36;
+}
+.footer .copyright{
+	font-size: 12px;
+	text-align: center;
+	line-height: 2.4em;
+}
+.footer .contact{
+	font-size: 10px;
+	line-height: 1.6em;
+	text-align: center;
+}
+
+@media (max-width: 768px) { 
+	.muxi-navigation .navbar-brand{
+		width: 80px;
+		height: 80px;
+		background: url(../images/muxidiban-logo1.png) center no-repeat;
+		background-size: contain;
+		padding: 8px;
+	}
+	/* 该样式是使得点击下拉按钮时，不会出现拖动条 */
+	.muxi-navigation .navbar-nav{
+		margin: auto 0;
+	}
+	.muxi-navigation .navbar-nav>li>a{
+		line-height: 36px;
+	}
+	.muxi-navigation .navbar-nav>li:hover>a{
+		border-bottom: 0.5px solid #2dae36;
+	}
+	.muxi-navigation .navbar-nav .select>a{
+		color:#2dae36;
+		border-bottom: 0.5px solid #2dae36 !important;
+	}
+	.footer{
+		text-align: left;
+	}
+	.footer a{
+		text-align:left;
+		line-height: 2em;
+	}
+	.footer .changepage{
+		padding-top: 0px;
+	}
+	.footer .footer-logo{
+		padding-top: 0px;
+		margin-bottom: 8px;
+	}
+	.footer .copyright{
+		text-align: left;
+	}
+	.footer .contact{
+		text-align: left;
+	}
+}
+@media (min-width: 992px){
+	.footer .contact{
+		text-align: left;
+	}
+ }

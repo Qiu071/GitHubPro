@@ -1,0 +1,10 @@
+*{margin: 0;padding: 0}
+.top{
+    width: 100%;
+    height: 70px;
+    background: #18BEBE;
+    text-align: center;
+}
+.top>img{
+    padding: 10px;
+}

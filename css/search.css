@@ -1,0 +1,117 @@
+.nav>li{
+    font-size: 18px;
+    float: left;
+    list-style: none;
+    padding: 0px 5px;
+}
+.nav{
+    /* margin-left: 472px; */
+    width: 460px;
+    height: 65px;
+    line-height: 65px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 525px;
+    padding-top: 10px;
+}
+.head{
+    width: 1000px;
+    height: 170px;
+    background: #EBEBEB;
+    margin-left: auto;
+    margin-right: auto;
+}
+td{
+    font-size: 17px;
+    padding: 13.33px 12px 0px;
+}
+.first{
+    color: #18BEBE;
+}
+.head-main{
+    text-decoration: none;
+    color: black;
+    border: 2px solid #EBEBEB;
+}
+.head-main:hover{
+    box-sizing: border-box;
+    background-color: white;
+    border: 2px solid orange;
+}
+.search{
+    width: 1000px;
+    height: 56px;
+    background: #EBEBEB;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+.search-left,.search-middle,.search-right{
+    float: left;
+    margin-left: 12px;
+    height: 56px;
+    line-height: 56px;
+}
+/* 子元素一定要一代接一代写明白 */
+.search-left>ul>li{
+    font-size: 14px;
+    float: left;
+    list-style: none;
+    padding: 0px 20px 0px 0px;
+}
+.search-middle>form{
+    border:1px solid #eee;
+    width:250px;
+    height:20px;
+    margin: 16.6666px 40px 0px;
+    position: relative;
+}
+.search-middle>form>input{
+    position: absolute;
+    left:0;
+    top:0;
+    width:190px;
+    height:20px;
+    border:none;
+    box-sizing: border-box;
+    outline: none;
+}
+.search-middle>form>button{
+    position: absolute;
+    right:0;
+    top:0;
+    width:60px;
+    height:20px;
+    border:none;
+    background: #fff;
+}
+.search-middle>form>button>img{
+    position: absolute ;
+    left:0px;
+    top:3px;
+}
+.search-middle>form>button>span{
+    position: absolute ;
+    left: 20px;
+    top:0px;
+    font-size: 14px;
+}
+/* .searchThird>img{
+    margin-top: 2px;
+} */
+.search-right{
+    float: right;
+    margin-right: 30px;
+    height: 56px;
+    line-height: 56px;
+    position: relative;
+}
+.search-right>img{
+    position: absolute;
+    top:20px;
+    left: -25px;
+}
+.search-right>span{
+    font-size: 17px;
+    color: #18BEBE;
+}

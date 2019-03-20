@@ -1,0 +1,42 @@
+*{margin: 0;padding: 0;}
+.username{
+    float: left;
+    border-right: 1px solid #888;
+    padding-right: 30px;
+}
+.username,.jifeng,.bangding,.touxiang,.binding{
+    float: left;
+}
+.weixin{
+    padding: 20px 0 20px 40px;
+    background: #EDEDED;
+    border-bottom: 1px solid #e0e0e0;
+    box-sizing: border-box;
+}
+.row:after{
+    display: block;
+    content: "";
+    clear: both;
+}
+.jifeng{
+    margin-left: 5px;
+    margin-right:60px; 
+}
+.jifeng>p:first-child{
+    line-height: 50px;
+    font-size: 18px;
+}
+.touxiang{
+    margin-right: 10px;
+}
+.bangding{   
+    padding-left: 35px;
+    padding-top:30px;
+}
+.binding>p{
+    line-height: 20px;
+}
+a{
+    color: #19bebe;
+    text-decoration: none;
+}

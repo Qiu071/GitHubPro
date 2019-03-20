@@ -1,0 +1,74 @@
+/*轮播图样式*/
+.home-banner{
+	margin-bottom: 50px;
+}
+.home-banner img {
+      width: 100%;
+      height: 100%;
+}
+.home-banner .carousel-control{
+	background-image: none;
+}
+/* 将跳转的三个按钮置于图片底部 */
+.home-banner .carousel-indicators{
+	bottom: 0px;
+}
+.home-banner .carousel-indicators .active{
+	background: #2dae36;
+}
+.home-banner .carousel .carousel-control .glyphicon{
+	display:block;
+	position: absolute;
+	top:50%;
+	left: 50%;
+	transform: translate(50%,50%);
+}
+
+/*内容区域样式*/
+
+/*第一部分：企业特色部分开始*/
+.characteristic{
+	margin-bottom: 50px;
+}
+.characteristic .characteristic-icon{
+	margin-bottom: 16px;
+}
+.characteristic .characteristic-icon img{
+	width: 30%;
+}
+.characteristic .title{
+	font-size: 24px;
+	color:#2dae36;
+}
+.characteristic .sm-title{
+	color:#666;
+}
+/*企业特色部分结束*/
+
+/*第二部分：产品展示部分开始*/
+.product{
+	width: 100%;
+	margin-bottom: 50px;
+}
+.product .product-title{
+	height: 42px;
+	margin-bottom: 10px;
+	border-bottom: 1px solid #2dae36;
+}
+.product .product-title .show{
+	width: 120px;
+	color:white;
+	font-size: 20px;
+	line-height: 42px;
+	text-align: center;
+	background: #2dae36;
+	border-radius:16px 0 16px 0;
+}
+.product-list .row>div{
+	position: relative;
+	padding:15px;
+	box-sizing: border-box;
+}
+.product-list .row img{
+	width: 100%;
+}

@@ -2,46 +2,412 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <title>前端面试</title>
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-  <meta name="description" content="Description">
-  <link rel="icon" type="image/x-icon" class="js-site-favicon" href="https://github.githubassets.com/favicon.ico">
-  <link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">
-  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Grayscale - Start Bootstrap Theme</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Custom fonts for this template -->
+  <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i"
+    rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/bootstrap-grid.min.css" />
+
+  <!--图标调用-->
+  <link rel="stylesheet" href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+  <!-- Custom styles for this template -->
+  <link href="css/grayscale.min.css" rel="stylesheet">
+
 </head>
-<body>
-  <div id="app">loading...</div>
-  <script>
-    window.$docsify = {
-      name: '武汉工程',
-      homepage: 'pages/html,css.md',
-      // 侧边栏
-      loadSidebar: 'config/_sidebar.md',
-      subMaxLevel: 6,
-      // 顶部导航
-      loadNavbar: 'config/_navbar.md',
-      // 封面
-      coverpage: 'config/_coverpage.md',
-      autoHeader: true,
-      mergeNavbar:true,
-      auto2top: true,
-      // 完整配置参数
-      search: {
-        paths: 'auto',
-        maxAge: 86400000, // 过期时间，单位毫秒，默认一天
-        placeholder: '请搜索',
-        noData: '没有搜索到结果',
-        depth: 4
-      }
-    }
-  </script>
-  <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
-  <script src="//unpkg.com/docsify/lib/plugins/search.js"></script>
-  <script src="//unpkg.com/docsify/lib/plugins/emoji.js"></script>
-  <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
-  <script src="//unpkg.com/prismjs/components/prism-java.js"></script>
-  <script src="//unpkg.com/docsify/lib/plugins/zoom-image.js"></script>
+
+<body id="page-top">
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">Home Page</a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive"
+        aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        Menu
+        <i class="fas fa-bars"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#projects">Hobbies</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#work">Works</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#signup">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Header -->
+  <header class="masthead">
+    <div class="container d-flex h-100 align-items-center">
+      <div class="mx-auto text-center">
+        <h1 class="mx-auto my-0 text-uppercase">Qiu</h1>
+        <h2 class="text-white-50 mx-auto mt-2 mb-5">Don't put off till tomorrow what should be done today</h2>
+        <a href="#about" class="btn btn-primary js-scroll-trigger">Get Started</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- About Section -->
+  <section id="about" class="about-section text-center">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <h2 class="text-white mb-4">About me</h2>
+          <!-- <p class="text-white-50">Grayscale is a free Bootstrap theme created by Start Bootstrap. It can be yours
+            right now, simply download the template on
+            <a href="http://startbootstrap.com/template-overviews/grayscale/">the preview page</a>. The theme is open
+            source, and you can use it for any purpose, personal or commercial.
+          </p> -->
+          <p class="text-white-50">我叫邹志伟，一名来自计算机专业的大三学生</p>
+          <p class="text-white-50">一个想减肥，但是又爱美食的佛系Runner</p>
+        </div>
+      </div>
+      <img src="images/4.png" class="img-fluid" alt="">
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects-section bg-light">
+    <div class="container">
+
+      <!-- Featured Project Row -->
+      <div class="row align-items-center no-gutters mb-4 mb-lg-5">
+        <div class="col-xl-8 col-lg-7">
+          <img class="img-fluid mb-3 mb-lg-0" src="images/eat1.jpg" alt="">
+        </div>
+        <div class="col-xl-4 col-lg-5">
+          <div class="featured-text text-center text-lg-left">
+            <h4>Cooking</h4>
+            <p class="text-black-50 mb-0">
+              迷上做菜，就是想做给家里人吃，初中就开始在外地上寄宿学校，只有假期才能和家里人一起吃饭，现在想着有空做几道菜给他们吃，看他们吃得开心，心里很满足。
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project One Row -->
+      <div class="row justify-content-center no-gutters mb-5 mb-lg-0">
+        <div class="col-lg-6">
+          <img class="img-fluid" src="images/run.jpg" alt="">
+        </div>
+        <div class="col-lg-6">
+          <div class="bg-black text-center h-100 project">
+            <div class="d-flex h-100">
+              <div class="project-text w-100 my-auto text-center text-lg-left">
+                <h4 class="text-white">Run</h4>
+                <p class="mb-0 text-white-50">
+                  一个人跑步，正是一个人品味孤单,品味生命的时刻。
+                </p>
+                <hr class="d-none d-lg-block mb-0 ml-0">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project Two Row -->
+      <div class="row justify-content-center no-gutters">
+        <div class="col-lg-6">
+          <img class="img-fluid" src="images/listen2.jpg" alt="">
+        </div>
+        <div class="col-lg-6 order-lg-first">
+          <div class="bg-black text-center h-100 project">
+            <div class="d-flex h-100">
+              <div class="project-text w-100 my-auto text-center text-lg-right">
+                <h4 class="text-white">Read</h4>
+                <p class="mb-0 text-white-50">
+                  喝着一杯浓香的咖啡,
+                </p>
+                <p class="mb-0 text-white-50">
+                  翻阅着自己喜爱的一本书籍,
+                </p>
+                <p class="mb-0 text-white-50">
+                  耳边轻轻地飘来轻音乐,这是一种美好的感觉
+                </p>
+                <hr class="d-none d-lg-block mb-0 mr-0">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="work" class="projects-section bg-light">
+    <div class="conainer">
+      <h2 style="text-align:center">个人作品展示</h2>
+      <div class="demo">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4 col-sm-6">
+              <div class="box">
+                <img src="images/1131.jpg" alt="">
+                <div class="box-content">
+                  <div class="content">
+                    <span class="post">Qiu</span>
+                    <h3 class="title">个人网站</h3>
+                  </div>
+                  <ul class="icon">
+                    <li><a href="#"><i class="fa fa-search"></i></a></li>
+                    <li><a href="html/个人网站.html"><i class="fa fa-link"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+              <div class="box">
+                <img src="images/1132.jpg" alt="">
+                <div class="box-content">
+                  <div class="content">
+                    <span class="post">Qiu</span>
+                    <h3 class="title">诗意生活</h3>
+                  </div>
+                  <ul class="icon">
+                    <li><a href="#"><i class="fa fa-search"></i></a></li>
+                    <li><a href="html/诗意生活.html"><i class="fa fa-link"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+              <div class="box">
+                <img src="images/1133.jpg" alt="">
+                <div class="box-content">
+                  <div class="content">
+                    <span class="post">Qiu</span>
+                    <h3 class="title">关于远大</h3>
+                  </div>
+                  <ul class="icon">
+                    <li><a href="#"><i class="fa fa-search"></i></a></li>
+                    <li><a href="html/武汉工程大学.html"><i class="fa fa-link"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="demo">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4 col-sm-6">
+              <div class="box">
+                <img src="images/1134.jpg" alt="">
+                <div class="box-content">
+                  <div class="content">
+                    <span class="post">Qiu</span>
+                    <h3 class="title">地板测评</h3>
+                  </div>
+                  <ul class="icon">
+                    <li><a href="#"><i class="fa fa-search"></i></a></li>
+                    <li><a href="html/家居医生生活家.html"><i class="fa fa-link"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+              <div class="box">
+                <img src="images/1135.jpg" alt="">
+                <div class="box-content">
+                  <div class="content">
+                    <span class="post">Qiu</span>
+                    <h3 class="title">材料库测评</h3>
+                  </div>
+                  <ul class="icon">
+                    <li><a href="#"><i class="fa fa-search"></i></a></li>
+                    <li><a href="html/家居医生列表.html"><i class="fa fa-link"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+              <div class="box">
+                <img src="images/1136.jpg" alt="">
+                <div class="box-content">
+                  <div class="content">
+                    <span class="post">Qiu</span>
+                    <h3 class="title">小米登录</h3>
+                  </div>
+                  <ul class="icon">
+                    <li><a href="#"><i class="fa fa-search"></i></a></li>
+                    <li><a href="html/小米商城登录界面.html"><i class="fa fa-link"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="demo">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4 col-sm-6">
+              <div class="box">
+                <img src="images/1137.jpg" alt="">
+                <div class="box-content">
+                  <div class="content">
+                    <span class="post">Qiu</span>
+                    <h3 class="title">家居医生用户中心</h3>
+                  </div>
+                  <ul class="icon">
+                    <li><a href="#"><i class="fa fa-search"></i></a></li>
+                    <li><a href="html/家居医生用户中心.html"><i class="fa fa-link"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+              <div class="box">
+                <img src="images/1138.jpg" alt="">
+                <div class="box-content">
+                  <div class="content">
+                    <span class="post">Qiu</span>
+                    <h3 class="title">小米官网</h3>
+                  </div>
+                  <ul class="icon">
+                    <li><a href="#"><i class="fa fa-search"></i></a></li>
+                    <li><a href="html/小米官网.html"><i class="fa fa-link"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6">
+              <div class="box">
+                <img src="images/1139.jpg" alt="">
+                <div class="box-content">
+                  <div class="content">
+                    <span class="post">Qiu</span>
+                    <h3 class="title">木兮地板</h3>
+                  </div>
+                  <ul class="icon">
+                    <li><a href="#"><i class="fa fa-search"></i></a></li>
+                    <li><a href="html/木兮地板.html"><i class="fa fa-link"></i></a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Signup Section -->
+  <section id="signup" class="signup-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-10 col-lg-8 mx-auto text-center">
+
+          <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
+          <h2 class="text-white mb-5">Questions or Comments ?</h2>
+
+          <form class="form-inline d-flex">
+            <input type="email" class="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0" id="inputEmail" placeholder="请输入你的电子邮箱地址">
+            <button type="submit" class="btn btn-primary mx-auto">Subscribe</button>
+          </form>
+
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact-section bg-black">
+    <div class="container">
+
+      <div class="row">
+
+        <div class="col-md-4 mb-3 mb-md-0">
+          <div class="card py-4 h-100">
+            <div class="card-body text-center">
+              <i class="fas fa-map-marked-alt text-primary mb-2"></i>
+              <h4 class="text-uppercase m-0">Address</h4>
+              <hr class="my-4">
+              <div class="small text-black-50">武汉市江夏区东湖新技术开发区光谷一路206号</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-3 mb-md-0">
+          <div class="card py-4 h-100">
+            <div class="card-body text-center">
+              <i class="fas fa-envelope text-primary mb-2"></i>
+              <h4 class="text-uppercase m-0">Email</h4>
+              <hr class="my-4">
+              <div class="small text-black-50">
+                <a href="#">1428936638@qq.com</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 mb-3 mb-md-0">
+          <div class="card py-4 h-100">
+            <div class="card-body text-center">
+              <i class="fas fa-mobile-alt text-primary mb-2"></i>
+              <h4 class="text-uppercase m-0">Phone</h4>
+              <hr class="my-4">
+              <div class="small text-black-50">+86 15377022347</div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="social d-flex justify-content-center">
+        <a href="#" class="mx-2">
+          <i class="fab fa-twitter"></i>
+        </a>
+        <a href="#" class="mx-2">
+          <i class="fab fa-facebook-f"></i>
+        </a>
+        <a href="#" class="mx-2">
+          <i class="fab fa-github"></i>
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-black small text-center text-white-50">
+    <div class="container">
+      Copyright &copy; Your Website 2019
+    </div>
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Custom scripts for this template -->
+  <script src="js/grayscale.min.js"></script>
+
 </body>
 
 </html>

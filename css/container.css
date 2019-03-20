@@ -1,0 +1,70 @@
+.container{
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    overflow: hidden;
+    background: #ffffff;
+}
+.container>div{
+    background: #EBEBEB;
+    width: 240px;
+    height: 345px;
+    box-sizing: border-box;
+    border: 1px solid #ffffff;
+    float:left;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+.container>div:not(:last-child){
+    margin-right: 13.3333px;
+}
+.container:not(:last-child){
+    margin-bottom: 13.3333px;
+}
+.container>div>img{
+    position: absolute;
+    top:15px;
+    left: 14px;
+}
+.container>div>.container-part{
+    position: absolute;
+    top: 230px;
+    left: 14px;
+}
+.container>div>.container-part>.main01>p{
+    font-size: 14px;
+}
+.container>div>.container-part>.content{
+    /* 防止高度坍塌 */
+    overflow:hidden;
+}
+.container>div>.container-part>.content>li{
+    color:#18BEBE;
+    float: left;
+    list-style: none;
+    padding: 15px 10px 0px 0px;
+}
+.container>div>.container-part>.content>.content-left{
+    font-size: 16px;
+    font-weight: bold;
+}
+.container>div>.container-part>.content>.content-middle{
+    font-size: 18px;
+}
+.container>div>.container-part>.content>.content-right{
+    font-size: 14px;
+    padding: 17px 0px;
+}
+.main-top{
+    text-decoration: none;
+    color: black;
+}
+.main-top:hover,.main-bottom:hover{
+    color:orange;
+}
+.main-bottom{
+    text-decoration: none;
+    color: #18BEBE;
+}
